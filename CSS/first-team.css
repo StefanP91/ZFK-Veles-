@@ -1,0 +1,45 @@
+.header-hero{
+    background-image: url("../Images/first-team/hero-bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    position: relative;
+}
+
+.hero-text{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translatex(-50%);
+    color: white;
+    font-size: 45px;
+}
+
+main{
+    background-image: url("../Images/first-team/bg-main.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 200px;
+}
+
+.goalkeepers, .middle-players{
+    color: #A41F23;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.players-title{
+    padding-bottom: 70px;
+}
+
+.number{
+    font-size: 57px;
+    line-height: 57px;
+}
+
+.player-name{
+    font-size: 22px;
+    line-height: 28px;
+}
+

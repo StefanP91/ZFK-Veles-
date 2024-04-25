@@ -1,0 +1,39 @@
+.header-hero{
+    background-image: url("../Images/contact/hero-bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    position: relative;
+}
+
+.hero-text{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translatex(-50%);
+    color: white;
+    font-size: 45px;
+}
+
+main{
+    background-image: url("../Images/contact/bg-main.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 200px;
+}
+
+.titles{
+    color: #A41F23;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.titles h1{
+    padding-bottom: 50px;
+    margin: 0;
+}
+
+.titles span{
+    font-size: 22px;
+}

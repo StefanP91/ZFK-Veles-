@@ -1,0 +1,63 @@
+.header-hero{
+    background-image: url("../Images/current-projects-project-2/hero-bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    position: relative;
+}
+
+.hero-text{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translatex(-50%);
+    color: white;
+    font-size: 45px;
+}
+
+main{
+    background-image: url("../Images/current-projects-project-2/bg-main.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 200px;
+}
+
+.project-title{
+    padding-top: 70px;
+    color: #A41F23;
+}
+
+.project-title a{
+    text-decoration: none;
+    color: black;
+}
+
+.project-title h1{
+    margin: 0;
+}
+
+.project-date{
+    font-size: 24px;
+}
+
+.project img{
+    padding-top:50px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+.project-description span{
+    display: flex;
+    justify-content: end;
+    margin-top: 50px;
+}
+.project-description a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.project-description p{
+    text-align: justify;
+}

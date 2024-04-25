@@ -1,0 +1,49 @@
+.header-hero{
+    background-image: url("../Images/gallery-gallery-5/hero-bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    position: relative;
+}
+
+.hero-text{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translatex(-50%);
+    color: white;
+    font-size: 45px;
+}
+
+main{
+    background-image: url("../Images/gallery-gallery-5/bg-main.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 200px;
+}
+
+.project-gallery-title{
+    padding-top: 70px;
+    color: #A41F23;
+}
+
+.project-gallery-title a{
+    text-decoration: none;
+    color: black;
+}
+
+.project-gallery-title h1{
+    margin: 0;
+}
+
+.project-gallery-title-text{
+    font-size: 24px;
+}
+
+.project-gallery-gallery{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 40px;
+}

@@ -1,0 +1,130 @@
+.header-hero{
+    background-image: url("../Images/landing-page/team-home.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1300px;
+    width: 100%;
+    position: relative;
+
+}
+
+.hero-text{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translatex(-50%);
+    color: white;
+    font-size: 45px;
+}
+
+.next-match{
+    position: absolute;
+    left: 50%;
+    bottom: -15%;
+    transform: translatex(-50%);
+    background: linear-gradient(135.49deg, #F8F0F1 1.87%, rgba(248, 240, 241, 0.679253) 38.93%, rgba(248, 240, 241, 0.396254) 68.8%, rgba(248, 240, 241, 0) 97.36%);
+    border-radius: 50px;
+    display: flex;
+    gap: 50px;
+    padding: 30px 25px;
+}
+
+.logo-pobeda{
+    vertical-align: baseline;
+}
+
+main{
+    background-image: url("../Images/landing-page/bg-main.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 200px;
+}
+
+.projects{
+    padding-top: 350px;
+}
+
+.projects-title{
+   color: #A41F23;
+   text-align: center;
+}
+
+.project{
+    position: relative;
+}
+
+.project-next-icon{
+    position: absolute;
+    bottom: -15px;
+    right: 0;
+}
+
+.project-img{
+    height: 255px;
+}
+
+.project-text{
+    margin-top: 42px;
+}
+
+.our-members{
+    margin-top: 200px;
+    background: linear-gradient(161.7deg, #A41F23 3.75%, rgba(164, 31, 35, 0.822917) 17.43%, rgba(164, 31, 35, 0.582064) 63.57%, rgba(164, 31, 35, 0.390542) 79.97%, rgba(164, 31, 35, 0) 100.82%);
+    color: white;
+    padding: 30px 0;
+}
+
+#carousel-members .carousel-control-prev{
+    left: -140px;
+} 
+
+#carousel-members .carousel-control-next{
+    right: -140px;
+} 
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    width: 44px;
+    height: 44px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+    position: relative;
+}
+
+.carousel-control-prev-icon img,
+.carousel-control-next-icon img{
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 25%;
+    bottom: 25%;
+}
+
+.main-last-section{
+    margin-top: 200px;
+}
+
+.success-stories{
+    display: flex;
+    padding: 30px;
+    gap: 170px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 10px 4px rgba(0, 0, 0, 0.15), 0px 2px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    margin-top: 200px;
+    
+}
+
+.success-stories-title{
+    font-size: 32px;
+    color: #A41F23;
+}
+
+.success-stories-text{
+    font-size: 22px;
+}
+
+
+
+

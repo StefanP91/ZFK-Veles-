@@ -1,0 +1,81 @@
+.header-hero{
+    background-image: url("../Images/about-us/hero-bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    position: relative;
+}
+
+.hero-text{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translatex(-50%);
+    color: white;
+    font-size: 45px;
+}
+
+main{
+    background-image: url("../Images/about-us/main-bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 200px;
+}
+
+ol{
+    padding-left: 1rem;
+}
+.for-club,
+.management{
+    padding-top: 200px;
+}
+
+.section-title{
+    color: #A41F23;
+    margin-bottom: 70px; 
+}
+
+#carousel-management{
+    background: linear-gradient(136.32deg, rgba(248, 240, 241, 0) 0.5%, rgba(248, 240, 241, 0.679253) 23.9%, rgba(248, 240, 241, 0.396254) 24.48%, #FFFFFF 61.09%);
+    box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    padding: 50px 40px;
+}
+.member-description{
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 0px 0px 25px 25px;
+    border: solid 1px #F8F0F1;
+    box-shadow: 0px 6px 10px 4px rgba(0, 0, 0, 0.15);
+    filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.3));
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+#carousel-management .carousel-control-prev{
+    left: -60px;
+} 
+
+#carousel-management .carousel-control-next{
+    right: -60px;
+} 
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    width: 44px;
+    height: 44px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+    position: relative;
+}
+
+.carousel-control-prev-icon img,
+.carousel-control-next-icon img{
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 25%;
+    bottom: 25%;
+}

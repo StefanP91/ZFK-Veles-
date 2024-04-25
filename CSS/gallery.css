@@ -1,0 +1,117 @@
+.header-hero{
+    background-image: url("../Images/gallery/hero-bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    position: relative;
+}
+
+.hero-text{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translatex(-50%);
+    color: white;
+    font-size: 45px;
+}
+
+main{
+    background-image: url("../Images/gallery/bg-main.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 200px;
+}
+
+.gallery-posts{
+    padding-top: 70px;
+}
+
+.gallery-posts span{
+    font-size: 14px;
+}
+
+.gallery-posts img{
+    width: 100%;
+}
+
+.gallery-posts a{
+    text-decoration: none;
+    color: black;
+}
+
+.post-1:hover a{
+    color: #A41F23;
+}
+
+.post-1 img{
+    transition: transform .2s;
+    
+}
+
+.post-1:hover img{
+    opacity: 0.6;
+    transform: scale(1.05);
+    transform-origin: bottom left;
+}
+
+.post-2:hover a{
+    color: #A41F23;
+}
+
+.post-2 img{
+    transition: transform .2s;
+    
+}
+
+.post-2:hover img{
+    opacity: 0.6;
+    transform: scale(1.05);
+    transform-origin: bottom left;
+}
+
+.post-3:hover a{
+    color: #A41F23;
+}
+
+.post-3 img{
+    transition: transform .2s;
+    
+}
+
+.post-3:hover img{
+    opacity: 0.6;
+    transform: scale(1.05);
+    transform-origin: bottom left;
+}
+
+.post-4:hover a{
+    color: #A41F23;
+}
+
+.post-4 img{
+    transition: transform .2s;
+    
+}
+
+.post-4:hover img{
+    opacity: 0.6;
+    transform: scale(1.05);
+    transform-origin: bottom left;
+}
+
+.post-5:hover a{
+    color: #A41F23;
+}
+
+.post-5:hover img{
+    opacity: 0.6;
+    transform: scale(1.05);
+    transform-origin: bottom left;
+}
+
+.post-5 img{
+    transition: transform .2s;
+    
+}
+

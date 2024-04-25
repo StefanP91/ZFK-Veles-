@@ -1,0 +1,74 @@
+.header-hero{
+    background-image: url("../Images/success-projects-project-2/hero-bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    position: relative;
+}
+
+.hero-text{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translatex(-50%);
+    color: white;
+    font-size: 45px;
+}
+
+main{
+    background-image: url("../Images/success-projects-project-2/bg-main.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 200px;
+}
+
+.project-title{
+    padding-top: 70px;
+    color: #A41F23;
+}
+
+.project-title a{
+    text-decoration: none;
+    color: black;
+}
+
+.project-title h1{
+    margin: 0;
+}
+
+.project-date{
+    font-size: 24px;
+}
+
+.project-description{
+    padding-top: 100px;
+}
+
+.project-description p{
+    text-align: justify;
+}
+
+.project-description span{
+    display: flex;
+    justify-content: end; 
+    margin-top: 50px;
+}
+.project-description a{
+    text-decoration: none;
+    color: black;
+}
+
+.project img{
+    padding-top:50px;
+    width: 100%;
+}
+
+.project-bottom-text{
+    padding-top: 50px;
+}
+
+.project-bottom-text .red-text{
+    color: #A41F23;
+    font-weight: bold;
+}
