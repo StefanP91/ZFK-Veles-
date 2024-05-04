@@ -1,5 +1,5 @@
 .header-hero{
-    background-image: url("../Images/landing-page/team-home.svg");
+    background-image: url("../Images/index/team-home.svg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 1300px;
@@ -34,7 +34,7 @@
 }
 
 main{
-    background-image: url("../Images/landing-page/bg-main.svg");
+    background-image: url("../Images/index/bg-main.svg");
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 200px;
