@@ -5,7 +5,12 @@ header{
     color: white;
     display: flex;
     justify-content: space-between;
-    padding: 40px 80px 40px 250px;
+    padding: 2.5rem 5rem 2.5rem 15.625rem;
+}
+
+.club-title{
+    font-size: 1.875rem;
+    font-size: clamp(1.875rem, 1.1607142857142858rem + 1.1160714285714284vw, 2.5rem);
 }
 
 .logo{
@@ -23,7 +28,8 @@ header{
     transform: translate(-50% ,+250%);
     background: #A41F23;
     opacity: 0.8;
-    font-size: xx-large;
+    font-size: 1.25rem;
+    font-size: clamp(1.25rem, 0.3928571428571429rem + 1.3392857142857142vw, 2rem);
     width: max-content;
     padding: 0!important;
 }
@@ -35,7 +41,7 @@ header{
 
 .nav-item a{
     color: #D9D9D9 !important;
-    padding: 16px 39px!important;
+    padding: 1rem 2.438rem !important;
 }
 
 .navbar .nav-item a:active,

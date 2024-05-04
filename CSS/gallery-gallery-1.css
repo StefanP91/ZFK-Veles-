@@ -2,6 +2,7 @@
     background-image: url("../Images/gallery-gallery-1/hero-bg.svg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 700px;
     width: 100%;
     position: relative;
